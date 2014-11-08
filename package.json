@@ -1,0 +1,17 @@
+{
+  "name": "dat-reporter-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "format.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "dependencies": {
+    "flat-stream": "^1.1.0",
+    "jsonfilter": "^1.0.2",
+    "runstream": "^1.0.0",
+    "through2": "^0.6.3"
+  }
+}

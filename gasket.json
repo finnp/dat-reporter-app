@@ -1,0 +1,11 @@
+{
+  "import": [
+    "gasket run transform",
+    "dat import --json --primary=date"
+  ],
+  "transform": [
+    "jsonfilter \"snapshots.*\"",
+    {"module": "./format.js", "json": true},
+    "flat-stream --safe"
+  ]
+}
